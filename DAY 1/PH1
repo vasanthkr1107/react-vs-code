@@ -1,14 +1,10 @@
 
-function array(){
-    let arr1=["North","West","East","South"];
-    alert(arr1);
-}
-
-function Appii(){
+import React from "react";
+const Team =()=>{
     return(
-        <div className="App">
-            <button onClick={array}>array</button> 
+        <div>
+            <p>This is Team Functional Component</p>
         </div>
-    )
-}
-export default Appii;
+    );
+};
+export default Team;
